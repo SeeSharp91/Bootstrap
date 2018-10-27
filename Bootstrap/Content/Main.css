@@ -1,7 +1,83 @@
-﻿body {
+﻿/*rood: #ED1B34*/
+/*Container kleur: ##E2DDDB*/
+
+body {
+    color: black !important;
 }
 
-@media (min-width: 768px) {
+.body-content {
+    background-color: #E2DDDB !important;
+}
+
+.nav navbar-nav {
+    border-radius: unset !important;
+}
+
+.navbar-fixed-top {
+    background-color: white !important;
+    color: black !important;
+}
+
+.navbar-nav > li > a {
+    color: black !important;
+}
+
+    .navbar-nav > li > a:hover {
+        color: #ED1B34 !important;
+    }
+
+.navbar-brand {
+    color: black !important;
+}
+
+    .navbar-brand:hover {
+        color: #ED1B34 !important;
+    }
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    color: #ED1B34 !important;
+}
+
+.glyphicon {
+    color: #ED1B34 !important;
+}
+
+#Zoekbalk:focus {
+    border-color: #ED1B34 !important;
+    outline: none;
+    box-shadow: none;
+}
+
+.breadcrumbs ul, ol {
+    margin-top: 20px;
+}
+
+.breadcrumb > .active {
+    color: #ED1B34 !important;
+}
+
+.breadcrumb a {
+    color: black;
+}
+
+.container .jumbotron, .container-fluid .jumbotron {
+    background-color: white !important;
+}
+
+div.container:nth-child(1) > div:nth-child(1) > button:nth-child(1) {
+    background-color: #ED1B34 !important;
+    border:none !important;
+}
+
+/*.navbar-fixed-top, .navbar-fixed-bottom {
+    background-color: white !important;
+}
+
+navbar navbar-inverse navbar-fixed-top {
+    background-color: white !important;
+}*/
+
+/*@media (min-width: 768px) {
     .navbar-collapse {
         height: auto;
         border-top: 0;
@@ -44,8 +120,5 @@
     .navbar-collapse .navbar-nav.navbar-right:last-child {
         margin-right: 0;
     }
-}
+}*/
 
-.nav navbar-nav{
-    border-radius:unset !important;
-}
