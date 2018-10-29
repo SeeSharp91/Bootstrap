@@ -5,7 +5,7 @@
 /*Font styling*/
 
 h1 {
-    color:black !important;
+    color: black !important;
 } 
 
 /*Navbar styling*/
@@ -179,7 +179,8 @@ div.container:nth-child(3) {
 
 @media screen and (max-width: 600px) {
     .topnav .search-container {
-        float: none;
+        float: left;
+
     }
 
         .topnav a, .topnav input[type=text], .topnav .search-container button {
@@ -194,4 +195,9 @@ div.container:nth-child(3) {
     .topnav input[type=text] {
         border: 1px solid #ccc;
     }
+
+    .topnav .search-container {
+        float: left;
+    }
+
 }
