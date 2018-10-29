@@ -161,6 +161,11 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\InlogpaginaController.cs" />
+    <Compile Include="Controllers\ProfielController.cs" />
+    <Compile Include="Controllers\RoosterController.cs" />
+    <Compile Include="Controllers\UrenController.cs" />
+    <Compile Include="Controllers\VakgegevensController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -206,10 +211,19 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Profiel\MijnGegevens.cshtml" />
+    <Content Include="Views\Rooster\Rooster.cshtml" />
+    <Content Include="Views\Uren\UrenDocent.cshtml" />
+    <Content Include="Views\Uren\UrenRoosteraar.cshtml" />
+    <Content Include="Views\Vakgegevens\Contacturen.cshtml" />
+    <Content Include="Views\Vakgegevens\VakkenKoppelen.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Images\" />
     <Folder Include="Models\" />
+    <Folder Include="Views\Inlogpagina\" />
+    <Folder Include="Views\ProfielController\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />

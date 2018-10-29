@@ -1,124 +1,197 @@
-﻿/*rood: #ED1B34*/
-/*Container kleur: ##E2DDDB*/
-
-body {
-    color: black !important;
+﻿body{
+    padding-top: unset !important;
 }
 
-.body-content {
-    background-color: #E2DDDB !important;
+/*Font styling*/
+
+h1 {
+    color:black !important;
+} 
+
+/*Navbar styling*/
+
+a.navbar-brand:nth-child(2) > img:nth-child(1) {
+    margin-top: -5px !important;
 }
 
-.nav navbar-nav {
+div.navbar-form {
+    margin-top: unset !important;
+    margin-bottom: unset !important;
+}
+
+a.navbar-brand:nth-child(3) {
+    color:black !important;
+}
+
+.navbar-left > li:nth-child(-n+10) > a:nth-child(-n+10) {
+    color:black !important;
+}
+
+.navbar {
+    margin-bottom: unset !important;
     border-radius: unset !important;
 }
 
-.navbar-fixed-top {
-    background-color: white !important;
+body > nav:nth-child(1) {
+    background-color: white;
+    border-bottom: 1px black solid;
+    border-radius: unset;
+}
+
+.submenu {
+    border: unset !important;
+}
+
+.form-control {
+    max-width: 150px !important;
+}
+
+.navbar-form {
+    margin-top: unset !important;
+}
+
+.input-group {
+    margin-top: 7px !important;
+    max-width: 189px !important;
+}
+
+input[type=text] {
+    width: 130px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+    /* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+    width: 100%;
+} 
+
+
+
+/*Sidebar styling*/
+div.col-lg-1:nth-child(2) {
+    padding-left: unset;
+    padding-right: unset
+}
+
+div.col-lg-1:nth-child(1){
+    padding-left: unset;
+    padding-right: unset;
+}
+
+.submenu > div:nth-child(2) {
+    padding-left: unset;
+    padding-right: unset;
+}
+
+/*Breadcrumbs styling*/
+.breadcrumb {
+    margin-top: 20px !important;
+}
+
+.breadcrumb > li:nth-child(-n+10) {
     color: black !important;
 }
 
-.navbar-nav > li > a {
-    color: black !important;
+.breadcrumb > li > a:nth-child(-n+10) {
+    color: red !important;
 }
 
-    .navbar-nav > li > a:hover {
-        color: #ED1B34 !important;
+.col-lg-1 > div:nth-child(1) {
+    background-color: RGB(237, 27, 52);
+}
+
+div.container:nth-child(1) {
+    margin-left: unset;
+    margin-right: unset;
+    width: 100% !important;
+    padding-right: unset !important;
+}
+
+div.container:nth-child(1) > div:nth-child(1) > button:nth-child(1){
+    margin-right: 30px !important;
+}
+/*Pagina styling*/
+div.container:nth-child(3) {
+    background-color: #E2DDDB !important;
+}
+
+/*Zoekbalk styling*/
+.zoekbalk {
+    max-width: 200px;
+}
+
+.col-sm-2 .zoekbalk {
+    max-width: 200px;
+}
+
+
+.topnav {
+    overflow: hidden;
+    background-color: #e9e9e9;
+}
+
+    .topnav a {
+        float: left;
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
     }
 
-.navbar-brand {
-    color: black !important;
-}
-
-    .navbar-brand:hover {
-        color: #ED1B34 !important;
-    }
-
-.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
-    color: #ED1B34 !important;
-}
-
-.glyphicon {
-    color: #ED1B34 !important;
-}
-
-#Zoekbalk:focus {
-    border-color: #ED1B34 !important;
-    outline: none;
-    box-shadow: none;
-}
-
-.breadcrumbs ul, ol {
-    margin-top: 20px;
-}
-
-.breadcrumb > .active {
-    color: #ED1B34 !important;
-}
-
-.breadcrumb a {
-    color: black;
-}
-
-.container .jumbotron, .container-fluid .jumbotron {
-    background-color: white !important;
-}
-
-div.container:nth-child(1) > div:nth-child(1) > button:nth-child(1) {
-    background-color: #ED1B34 !important;
-    border:none !important;
-}
-
-/*.navbar-fixed-top, .navbar-fixed-bottom {
-    background-color: white !important;
-}
-
-navbar navbar-inverse navbar-fixed-top {
-    background-color: white !important;
-}*/
-
-/*@media (min-width: 768px) {
-    .navbar-collapse {
-        height: auto;
-        border-top: 0;
-        box-shadow: none;
-        max-height: none;
-        padding-left: 0;
-        padding-right: 0;
-    }
-
-        .navbar-collapse.collapse {
-            display: block !important;
-            width: auto !important;
-            padding-bottom: 0;
-            overflow: visible !important;
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
         }
 
-        .navbar-collapse.in {
-            overflow-x: visible;
+        .topnav a.active {
+            background-color: #2196F3;
+            color: white;
         }
 
-    .navbar {
-        max-width: 300px;
-        margin-right: 0;
-        margin-left: 0;
+    .topnav .search-container {
+        float: right;
     }
 
-    .navbar-nav,
-    .navbar-nav > li,
-    .navbar-left,
-    .navbar-right,
-    .navbar-header {
-        float: none !important;
+    .topnav input[type=text] {
+        padding: 6px;
+        margin-top: 8px;
+        font-size: 17px;
+        border: none;
     }
 
-        .navbar-right .dropdown-menu {
-            left: 0;
-            right: auto;
+    .topnav .search-container button {
+        float: right;
+        padding: 6px 10px;
+        margin-top: 8px;
+        margin-right: 16px;
+        background: #ddd;
+        font-size: 17px;
+        border: none;
+        cursor: pointer;
+    }
+
+        .topnav .search-container button:hover {
+            background: #ccc;
         }
 
-    .navbar-collapse .navbar-nav.navbar-right:last-child {
-        margin-right: 0;
+@media screen and (max-width: 600px) {
+    .topnav .search-container {
+        float: none;
     }
-}*/
 
+        .topnav a, .topnav input[type=text], .topnav .search-container button {
+            float: none;
+            display: block;
+            text-align: left;
+            width: 100%;
+            margin: 0;
+            padding: 14px;
+        }
+
+    .topnav input[type=text] {
+        border: 1px solid #ccc;
+    }
+}

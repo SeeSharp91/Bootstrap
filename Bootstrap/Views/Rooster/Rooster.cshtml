@@ -1,10 +1,12 @@
 ﻿@{
-    ViewBag.Title = "Home Page";
+    ViewBag.Title = "Rooster";
 }
 
 <ol class="breadcrumb">
     <h1>Roostersysteem Zuyd</h1>
-    <li class="active">Home</li>
+    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+    <li><a href="#">Rooster</a></li>
+    <li class="active">Rooster</li>
 </ol>
 
 <div class="jumbotron">
